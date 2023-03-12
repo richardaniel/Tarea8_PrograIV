@@ -1,0 +1,30 @@
+.toolbar {
+    background-color: rgb(7, 141, 212);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .toolbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .toolbar li {
+    margin-left: 20px;
+  }
+  
+  .toolbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .toolbar a.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  

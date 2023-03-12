@@ -1,0 +1,45 @@
+/* Estilos para el contenedor de búsqueda */
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para el campo de entrada de búsqueda */
+  .search-container input[type=text] {
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-left: 10px;
+  }
+  
+  /* Estilos para el botón de búsqueda */
+  .search-container button {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    color: #777;
+    font-size: 1.2rem;
+  }
+  
+  /* Estilos para el contenedor del usuario */
+  .user-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+  }
+  
+  /* Estilos para el icono de usuario */
+  .user-container i {
+    margin-left: 10px;
+    color: #777;
+    font-size: 1.2rem;
+  }
+  
+  

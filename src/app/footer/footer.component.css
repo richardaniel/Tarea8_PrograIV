@@ -1,0 +1,52 @@
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #555;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #000;
+  }
+  
+  .social-links a i {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-links a:hover i {
+    transform: scale(1.2);
+  }
+
+  .email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  .email-container i {
+    margin-right: 5px;
+  }
+  
+  .email-container a {
+    color: #555;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom-color 0.2s;
+  }
+  
+  .email-container a:hover {
+    color: #12c4e4;
+    border-bottom-color: #fff;
+  }
+  
+  
